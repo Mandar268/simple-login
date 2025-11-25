@@ -1,0 +1,49 @@
+
+<html>
+<head>
+    <title>Simple Login Form</title>
+    <style>
+        body 
+{
+            font-family: Arial;
+        }
+        box {
+            width: 300px;
+            border: 2px  black;
+            padding: 20px;
+        }
+        label, input 
+{
+            display: block;
+            margin-bottom: 25px;
+        }
+        input 
+{
+            width: 110%;
+            padding: 5px;
+        }
+        button
+ {
+            padding: 8px 11px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Login Form</h2>
+
+<div class="box">
+    <form>
+        <label>Username:</label>
+        <input type="text">
+
+        <label>Password:</label>
+        <input type="password">
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+</body>
+</html>
